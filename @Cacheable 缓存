@@ -1,7 +1,8 @@
 
 #### Spring 的内置缓存@Cacheable
 ##### 1. 使用方法：在service层加入注解(可以加在类上也可以加在方法上)
-```java
+
+```SQL
 @Cacheable(value = "cacheWeldingAndHeatDetailStatisticExportList", key = "#cacheString")
 ```
 
